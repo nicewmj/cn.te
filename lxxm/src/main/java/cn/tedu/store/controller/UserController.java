@@ -13,9 +13,6 @@ public class UserController {
 	@Autowired
 	private IUserService userService;
 	
-	/**
-	 * �ϴ���ͷ������ߴ磬��λ��KB
-	 */
 	public static final long MAX_AVATAR_SIZE = 50;
 	
 	@RequestMapping("/reg.do")
