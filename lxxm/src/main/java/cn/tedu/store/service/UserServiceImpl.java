@@ -9,7 +9,7 @@ import cn.tedu.store.mapper.UserMapper;
 @Service
 public class UserServiceImpl implements IUserService {
 	
-	@Autowired //配置
+	@Autowired //配置哪里
 	private UserMapper userMapper;
 
 	public User reg(User user) {
